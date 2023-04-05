@@ -10,7 +10,7 @@ namespace Application.Activities
 {
     public class Create
     {
-        //query returns data, commands do not, so no type parameter after IRequest
+        //not :query returns data, commands do not, so no type parameter after IRequest
         public class Command : IRequest
         {
             public Activity Activity { get; set;}  //what we want to receiver as a parameter from api
